@@ -1,0 +1,49 @@
+<div class="row">
+		<div class="col m12">
+			<div class="card-panel teal hoverable">
+				<div class="white-text">
+					<h2>Gimme $$$ Bank - jQuery ATM</h2>
+					<p>Enter amount for deposits or withdrawls, or chech your balance below.</p> <p>"Because playin' with money, is like playin' with emotions."</p>
+					<div>
+						Check Balance <button id="balance" class="btn-floating waves-light waves-effect red" type="button">$</button>
+					</div>
+				</div>
+		</div>
+	</div>
+
+	<div class="panel">
+		<table class="responsive-table container">
+			<thead>
+				<tr>
+					<td>Deposits</td>
+					<td>Withdrawals</td>
+					<td>Tansfer to Checking</td>
+					<td>Transfer to Savings</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						<input type="number" id="d_amount">
+						<button id="deposit" class="btn waves-light waves-effect deep-orange accent-" type="button">Deposit</button>
+					</td>
+					<td>
+						<input type="number" id="w_amount">
+						<button id="withdraw" class="btn waves-light waves-effect green" type="button">Withdraw</button>
+					</td>
+					<td>
+						<input type="number" id="x2c_amount">
+						<button id="x2check" class="btn waves-light waves-effect indigo darken" type="button">Transfer to Checking</button>
+					</td>
+					<td>
+						<input type="number" id="x2s_amount">
+						<button id="x2save" class="btn waves-light waves-effect purple darken" type="button">Transfer to Savings</button>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="4"><p id="message"></p></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
